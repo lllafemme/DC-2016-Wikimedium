@@ -9,8 +9,4 @@ $(function() {
       }, 1000);
     });
   });
-<<<<<<< HEAD
 });
-=======
-});s
->>>>>>> ZakharDay/master

@@ -3,7 +3,6 @@
 }
 
 body {
-<<<<<<< HEAD
   min-width: 768px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,13 +13,3 @@ body {
     text-decoration: none;
     color: inherit;
   }
-=======
-  font-family: 'PT Sans', sans-serif;
- -webkit-font-smoothing: antialiased;
- -moz-osx-font-smoothing: grayscale;
- }
- a {
-   text-decoration: none;
-   color: inherit;
- }
->>>>>>> ZakharDay/master

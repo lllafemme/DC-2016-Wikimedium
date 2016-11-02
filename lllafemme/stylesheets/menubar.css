@@ -1,5 +1,4 @@
 .menubar {
-<<<<<<< HEAD
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,18 +10,5 @@
   display: block;
   width: 180px;
   height: 16px;
-=======
- display: flex;
- justify-content: space-between;
- align-items: center;
- height: 50px;
- padding: 20px;
- }
-
-.logo {
-  display: block;
-  width: 180px:auto;
-  height: 16px:auto;
->>>>>>> ZakharDay/master
   background-image: url(../images/wikimedium_logo.svg);
 }
