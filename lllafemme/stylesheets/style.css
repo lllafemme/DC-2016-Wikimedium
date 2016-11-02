@@ -1,0 +1,17 @@
+@import "reset.css";
+@import "https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700|PT+Sans:400,400i,700,700i&subset=cyrillic";
+<<<<<<< HEAD
+=======
+
+>>>>>>> ZakharDay/master
+@import "layout.css";
+@import "menubar.css";
+@import "sidebar.css";
+@import "content.css";
+<<<<<<< HEAD
+@import "responsive.css";
+@import "gallery.css";
+=======
+@import "gallery.css";
+@import "responsive.css";
+>>>>>>> ZakharDay/master

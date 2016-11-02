@@ -1,0 +1,153 @@
+<<<<<<< HEAD
+.gallery {
+  position: relative;
+  overflow: hidden;
+=======
+.gallery{
+  position: relative;
+>>>>>>> ZakharDay/master
+}
+
+.galleryRail {
+  display: flex;
+<<<<<<< HEAD
+  transition: all .60s ease;
+=======
+ transition: all .3s
+>>>>>>> ZakharDay/master
+}
+
+.galleryRail img {
+  display: block;
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.galleryRail figure {
+<<<<<<< HEAD
+  width: 100vw;
+  min-width: 100vw;
+}
+
+.gallery figcaption {
+  height: 50px;
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.4);
+  text-align: center;
+}
+
+.galleryNav  {
+=======
+  width: 100%;
+  min-width: 100%;
+}
+
+.galleryRail figure:nth-child(odd){
+  background: grey;
+}
+
+.galleryRail figure:nth-child(even){
+  background: lightgrey;
+
+}
+
+.galleryNav {
+>>>>>>> ZakharDay/master
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: calc(100% - 51px);
+<<<<<<< HEAD
+
+}
+
+.galleryNav div {
+=======
+}
+
+.gallery figcaption {
+  height: 51px;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(0,0,0,.4)
+}
+
+
+/* Chevron */
+
+.chevron {
+>>>>>>> ZakharDay/master
+  position: relative;
+  width: 20px;
+  height: 20px;
+  margin: 30px;
+<<<<<<< HEAD
+  cursor: pointer;
+  z-index: 1;
+}
+
+.galleryNav .disabled {
+  opacity: 0;
+  cursor: default;
+}
+
+
+
+#prev {
+  transform: rotate(-45deg);
+}
+#next {
+  transform: rotate(135deg);
+=======
+  transform: rotate(-45deg);
+  }
+
+  #prev {
+    transform: rotate(-45deg);
+  }
+
+  #next {
+    transform: rotate(135deg);
+  }
+
+
+.galleryNav .disabled {
+  opacity: 0;
+>>>>>>> ZakharDay/master
+}
+
+.galleryNav div::before,
+.galleryNav div::after {
+<<<<<<< HEAD
+  content: "";
+  position: absolute;
+  background: black;
+}
+.galleryNav div:before {
+  width: 5px;
+  height: 20px;
+}
+
+.galleryNav div:after {
+  width: 20px;
+  height: 5px;
+}
+=======
+  position: absolute;
+  background: black;
+ }
+
+.chevron div:first-child {
+   width: 5px;
+   height: 20px;
+ }
+
+.chevron div:last-child {
+   width: 20px;
+   height: 5px;
+ }
+>>>>>>> ZakharDay/master
