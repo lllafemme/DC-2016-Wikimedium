@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   min-width: 768px;
   -webkit-font-smoothing: antialiased;
@@ -9,7 +14,18 @@ body {
   font-family: "PT Sans", sans-serif;
   }
 
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
+
+body.posts {
+  background-color: #FAFAFA;
+}
+
+body.posts .menubar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 768px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+
+}
