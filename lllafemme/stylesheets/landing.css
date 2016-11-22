@@ -1,6 +1,6 @@
 .landingWrapper {
   width: 1440px;
-  min-width: 1280px;
+
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -106,4 +106,47 @@
   .landingWrapper {
     width: 100%;
   }
+}
+
+@media screen and (max-width:1180px) {
+  .landingWrapper {
+    width: 1180px;
+    min-width: 910px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+  }
+
+
+  .mainSection {
+    width: 1180px;
+    height: 568px;
+
+  }
+
+  .mainSection h2 {
+    font-size: 26px;
+    line-height: 32px;
+
+  }
+
+  .mainSection p {
+    margin-top: 21px;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .mainSection section {
+    width: 580px;
+    top: 100px;
+  }
+
+
+  .mainSection.left section {
+    left: 190px;
+  }
+
+  .mainSection.right section {
+    right: 190px;
+  }
+
+
 }
